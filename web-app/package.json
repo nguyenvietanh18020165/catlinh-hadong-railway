@@ -1,0 +1,11 @@
+{
+  "name": "web-app",
+  "version": "1.0.0",
+  "description": "learn react project",
+  "main": "index.js",
+  "author": "Nguyen Viet Anh <vanhleg0908@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    
+  }
+}
