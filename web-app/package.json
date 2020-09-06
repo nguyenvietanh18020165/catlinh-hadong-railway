@@ -1,11 +1,24 @@
 {
   "name": "web-app",
+  "private": true,
+  "description": "buy ticket online",
   "version": "1.0.0",
-  "description": "learn react project",
-  "main": "index.js",
   "author": "Nguyen Viet Anh <vanhleg0908@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "gatsby": "^2.20.12",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  },
   "devDependencies": {
-    
+    "prettier": "^1.19.1"
   }
 }
